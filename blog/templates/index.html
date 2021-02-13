@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+<h1>Home</h1>
+</br>
+<div class="jumbotron">
+      <div class="col-sm-8 mx-auto">
+        <h1>Owens Blog</h1>
+        <p>Welcome to a simple blog post website produced using the flask framework for python</p>
+        <p>We use some basic  <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/"> BootStrap</a> for styling this blog as wel as <a href="https://jinja.palletsprojects.com/en/2.11.x/"> Jinja</a> designer-friendly templating language for Python Blog posts are stored in a sqlLite DB</p>
+        <p>
+          <a class="btn btn-primary" href="/posts" role="button">Go to Posts »</a>
+        </p>
+      </div>
+    </div>
+</br>
+{% endblock %}

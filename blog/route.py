@@ -8,7 +8,7 @@ all_posts = [
     {
         "title": "post 1",
         "content": "content of post 1",
-        "author": "Owen",
+        "author": "Pancake Bass Panda",
     },
     {
         "title": "post 2",
